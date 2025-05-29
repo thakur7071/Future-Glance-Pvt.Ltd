@@ -48,7 +48,7 @@ function HomeAbout() {
         className="mt-10 relative bg-fixed bg-center bg-cover bg-no-repeat "
         style={{ backgroundImage: `url(${bgImg})` }}
       >
-        <div className="bg-black bg-opacity-60 py-24 px-4 md:px-10">
+        <div className="bg-black/60  py-24 px-4 md:px-10">
           <div className="max-w-5xl mx-auto text-white text-center">
             <h3 className="text-3xl md:text-4xl font-bold mb-4">Building Tomorrow, Today</h3>
             <p className="text-base md:text-lg leading-relaxed">

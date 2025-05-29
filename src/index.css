@@ -1,20 +1,9 @@
 /* Import Google Font first */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap');
 
-
-
-/* Global Reset */
-* {
-  box-sizing: border-box;
-}
+@import "tailwindcss";
 
 /* Apply Global Font */
 body {
   font-family: "Josefin Sans", sans-serif;
-}
-
-/* Default Styles */
-a {
-  text-decoration: none;
-  color: inherit;
 }

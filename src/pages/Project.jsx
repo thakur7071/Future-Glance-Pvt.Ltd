@@ -73,7 +73,7 @@ function Project() {
           alt={`${project.title} Banner`}
           className="w-full h-48 sm:h-64 md:h-80 lg:h-[400px] object-cover"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
+        <div className="absolute inset-0 flex items-center justify-center bg-black/40 ">
           <h1 className="text-white text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center px-4">
             {project.title}
           </h1>

@@ -1,13 +1,13 @@
-import { bgImg } from "../Assets";
+import { bgImg } from "../Assets"; // Import the image path as before
 
 function Footer() {
   return (
     <footer
       className="text-white py-10 px-6 bg-center bg-cover bg-no-repeat relative"
-      style={{ backgroundImage: `url(${bgImg})` }}
+      style={{ backgroundImage: `url(${bgImg})` }} // Use inline style as fallback
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-70 z-0"></div>
+      <div className="absolute inset-0 bg-black/70  z-0"></div>
 
       {/* Footer Content */}
       <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
